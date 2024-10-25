@@ -1,6 +1,17 @@
 import { MotionConfig, motion } from "framer-motion";
 import { useState } from "react";
 import clsx from "clsx";
+interface TabType {
+    title: string;
+    description: string;
+    一回の費用: string;
+    時間: string;
+    効果: string;
+    持続期間: string;
+    痛み: string;
+    メリット: string;
+    デメリット: string;
+}
 
 const TABS = [
     {
@@ -50,14 +61,14 @@ const TABS = [
 ]
 
 export default function CompareTable() {
-    const [activeTab, setActiveTab] = useState(null);
-    const [hoveredTab, setHoveredTab] = useState(null);
+    const [activeTab, setActiveTab] = useState<TabType | null>(null);
+    const [hoveredTab, setHoveredTab] = useState<TabType | null>(null);
 
-    const handleMouseOver = (tab) => {
+    const handleMouseOver = (tab: TabType) => {
         setHoveredTab(tab);
     };
 
-    const handleFocus = (tab) => {
+    const handleFocus = (tab: TabType) => {
         setHoveredTab(tab);
     };
 
@@ -65,7 +76,7 @@ export default function CompareTable() {
         setHoveredTab(null);
     };
 
-    const handleClick = (tab) => {
+    const handleClick = (tab: TabType) => {
         setActiveTab(tab);
     };
 
