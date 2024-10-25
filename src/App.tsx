@@ -77,7 +77,7 @@ function App() {
         <img
           src={Bi_icon}
           alt="bi_teeth"
-          className="md:hidden absolute bottom-10 left-[35vw] h-[65vh] object-cover overflow-visible"
+          className="md:hidden translate-x-[25%] translate-y-[25%] h-[65vh] object-cover overflow-visible"
         />
         <img
           className="absolute top-[10%] md:top-[15%] md:left-[10%] w-[80vw] md:w-[35vw]"
