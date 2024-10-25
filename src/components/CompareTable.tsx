@@ -118,7 +118,7 @@ export default function CompareTable() {
                     
                     <div className="absolute left-[12rem] md:left-[20rem] top-0 flex px-5 py-5 h-full gap-5">
                         <div className="flex flex-col w-[8rem] rounded-[10px] border-[1px] p-5 justify-center items-center gap-5">
-                            <p className="text-[0.8rem] whitespace-nowrap">一回の費用</p>
+                            <p className="text-[0.8rem]">一回の費用</p>
                             <div className="flex flex-col h-full justify-between gap-5">
                                 {TABS.map((tab) => (
                                     <div key={tab.title} className="h-full flex justify-center items-center">
@@ -128,7 +128,7 @@ export default function CompareTable() {
                             </div>
                         </div>
                         <div className="flex flex-col w-[8rem] rounded-[10px] border-[1px] p-5 justify-center items-center gap-5">
-                            <p className="text-[0.8rem] whitespace-nowrap">時間</p>
+                            <p className="text-[0.8rem]">時間</p>
                             <div className="flex flex-col h-full justify-between gap-5">
                                 {TABS.map((tab) => (
                                     <div key={tab.title} className="h-full flex justify-center items-center">
@@ -138,7 +138,7 @@ export default function CompareTable() {
                             </div>
                         </div>
                         <div className="flex flex-col w-[8rem] rounded-[10px] border-[1px] p-5 justify-center items-center gap-5">
-                            <p className="text-[0.8rem] whitespace-nowrap">効果</p>
+                            <p className="text-[0.8rem]">効果</p>
                             <div className="flex flex-col h-full justify-between gap-5">
                                 {TABS.map((tab) => (
                                     <div key={tab.title} className="h-full flex justify-center items-center">
@@ -148,7 +148,7 @@ export default function CompareTable() {
                             </div>
                         </div>
                         <div className="flex flex-col w-[8rem] rounded-[10px] border-[1px] p-5 justify-center items-center gap-5">
-                            <p className="text-[0.8rem] whitespace-nowrap">持続期間</p>
+                            <p className="text-[0.8rem]">持続期間</p>
                             <div className="flex flex-col h-full justify-between gap-5">
                                 {TABS.map((tab) => (
                                     <div key={tab.title} className="h-full flex justify-center items-center">
