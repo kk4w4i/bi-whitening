@@ -83,7 +83,7 @@ export default function CompareTable() {
     const currentTab = hoveredTab || activeTab;
 
     return (
-        <div className="bg-white w-[90rem] max-w-[90rem] h-fit drop-shadow-lg rounded-[1rem] py-10 px-5 overflow-y-auto">
+        <div className="bg-white w-[90rem] max-w-[90rem] h-fit drop-shadow-lg rounded-[1rem] py-10 px-5 overflow-y-auto overflow-x-visible">
             <div className="w-[100%] flex flex-col gap-5 h-fit justify-between">
                 <p className="md:text-[1.2rem] font-medium pl-5">
                     ホワイトニングの種類

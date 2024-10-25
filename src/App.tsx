@@ -72,7 +72,7 @@ function App() {
         <img
           src={Bi_icon}
           alt="bi_teeth"
-          className="hidden md:block w-full md:h-full object-cover overflow-y-visible"
+          className="hidden md:block w-full md:h-full object-cover overflow-visible"
         />
         <img
           src={Bi_icon}
