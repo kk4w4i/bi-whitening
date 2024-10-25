@@ -75,11 +75,6 @@ function App() {
           className="hidden md:block w-full md:h-full object-cover overflow-visible"
         />
         <img
-          src={Bi_icon}
-          alt="bi_teeth"
-          className="md:hidden translate-x-[25%] translate-y-[25%] size-[60vh] object-cover overflow-visible"
-        />
-        <img
           className="absolute top-[10%] md:top-[15%] md:left-[10%] w-[80vw] md:w-[35vw]"
           src={Bi_title}
           alt="bi_title"
