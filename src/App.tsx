@@ -68,7 +68,7 @@ function App() {
   return (
     <div className="overflow-hidden">
       <Starbg />
-      <div className='relative w-screen h-screen flex items-center justify-center md:block z-[5]'>
+      <div className='relative w-screen h-screen flex items-center justify-center md:block z-[5] overflow-visible'>
         <img
           src={Bi_icon}
           alt="bi_teeth"
@@ -196,8 +196,8 @@ function App() {
           </div> 
       </div>
 
-      <div className='relative w-screen h-fit md:h-screen flex items-center justify-start lg:justify-center z-20 px-5 pb-20 lg:pl-0 overflow-y-visible overflow-x-auto mt-[10rem]'>
-        <div className='flex flex-col h-full justify-center items-center'> 
+      <div className='relative w-screen h-fit md:h-screen flex items-center justify-start lg:justify-center z-20 px-5 pb-20 lg:pl-0 overflow-y-visible overflow-x-scroll mt-[10rem]'>
+        <div className='flex flex-col h-full justify-center items-center overflow-visible'> 
           <CompareTable/>
           <p className='w-full mt-5 pr-10 whitespace-normal'>＊費用などは歯医者やサロンによって変わります。<br/>＊痛みのでるでないや、ホワイトニング効果には個人差があります。</p>
         </div>
