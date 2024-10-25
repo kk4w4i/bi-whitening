@@ -66,7 +66,7 @@ function App() {
   }, []);
 
   return (
-    <div className="relative max-w-[100vw] overflow-x-hidden">
+    <div className="relative max-w-[100vw]">
       <Starbg />
       <div className='relative w-screen h-screen flex items-center justify-center md:block z-[5]'>
         <img
