@@ -66,9 +66,9 @@ function App() {
   }, []);
 
   return (
-    <div className="overflow-clip">
+    <div className="relative max-w-[100vw] overflow-x-hidden">
       <Starbg />
-      <div className='relative w-screen h-screen flex items-center justify-center md:block z-[5] overflow-visible'>
+      <div className='relative w-screen h-screen flex items-center justify-center md:block z-[5]'>
         <img
           src={Bi_icon}
           alt="bi_teeth"
