@@ -66,7 +66,7 @@ function App() {
   }, []);
 
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-clip">
       <Starbg />
       <div className='relative w-screen h-screen flex items-center justify-center md:block z-[5] overflow-visible'>
         <img
