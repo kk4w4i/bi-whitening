@@ -8,6 +8,7 @@ import CardComponent from './components/CardComponent'
 import CompareTable from './components/CompareTable'
 import { useState, useEffect } from 'react'
 import { ArrowRightIcon } from "lucide-react";
+import Footer from './components/footer'
 
 interface PositionProps {
   position?: 'left' | 'center' | 'right';
@@ -195,11 +196,39 @@ function App() {
           </div> 
       </div>
 
-      <div className='relative w-screen h-screen flex items-center justify-start lg:justify-center z-20 px-5 pb-20 lg:pl-0 overflow-y-visible overflow-x-auto mt-[10rem]'>
-        <div className='flex flex-col h-screen justify-center items-center'> 
+      <div className='relative w-screen h-fit md:h-screen flex items-center justify-start lg:justify-center z-20 px-5 pb-20 lg:pl-0 overflow-y-visible overflow-x-auto mt-[10rem]'>
+        <div className='flex flex-col h-full justify-center items-center'> 
           <CompareTable/>
           <p className='w-full mt-5 pr-10 whitespace-normal'>＊費用などは歯医者やサロンによって変わります。<br/>＊痛みのでるでないや、ホワイトニング効果には個人差があります。</p>
         </div>
+      </div>
+
+      <div className='relative flex h-[80vh] w-screen justify-center items-center z-50 mt-[-2vh]'>
+        <div className='flex flex-col text-left text-[1rem] md:text-[1.7rem] gap-5 p-10'>
+          <h1 className='text-[1.2rem] md:text-[2rem] font-bold mb-5'>こんなお悩みの方にぴったりです！</h1>
+          <ul>
+            - 歯の黄ばみが気になる方
+          </ul>
+          <ul>
+            - 歯の色が気になり笑うことに自信が持てない方
+          </ul>
+          <ul>
+            - オフィスホワイトニングで痛みがある方
+          </ul>
+          <ul>
+            - ホームホワイトニングをコツコツと続けれない方
+          </ul>
+          <ul>
+            - 性別年齢関係なく通いやすい所を探していた
+          </ul>
+          <ul>
+            - できるだけ費用を抑えて効果のあるホワイトニングを探していた方
+          </ul>
+        </div>
+      </div>
+
+      <div className='relative flex px-10 md:px-20  py-10 z-50 w-screen h-fit'>
+        <Footer/>
       </div>
     </div>
   )
