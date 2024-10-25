@@ -1,0 +1,120 @@
+body {
+  background-image: linear-gradient(
+    135deg,
+    #FBE67B 20%,
+    #FCFBE7 40%,
+    #FCFBE7 60%,
+    #F7D14E 80%
+  );
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.stars-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.star {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0;
+  animation: twinkle 5s infinite;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+/* Positioning and timing for individual stars */
+.star1 {
+  width: 80px;
+  height: 80px;
+  top: 7%;
+  left: 15%;
+  animation-delay: 0s;
+}
+
+.star2 {
+  width: 80px;
+  height: 80px;
+  top: 19%;
+  left: 40%;
+  animation-delay: 1s;
+}
+
+.star3 {
+  width: 100px;
+  height: 100px;
+  top: 31%;
+  left: 30%;
+  animation-delay: 2s;
+}
+
+.star4 {
+  width: 100px;
+  height: 100px;
+  top: 44%;
+  left: 54%;
+  animation-delay: 3s;
+}
+
+.star5 {
+  width: 80px;
+  height: 80px;
+  top: 65%;
+  left: 79%;
+  animation-delay: 0.5s;
+}
+
+.star6 {
+  width: 80px;
+  height: 80px;
+  top: 66%;
+  left: 30%;
+  animation-delay: 1.5s;
+}
+
+.star7 {
+  width: 80px;
+  height: 80px;
+  top: 68%;
+  left: 8%;
+  animation-delay: 2.5s;
+}
+
+.star8 {
+  width: 80px;
+  height: 80px;
+  top: 43%;
+  left: 15%;
+  animation-delay: 3.5s;
+}
+
+.star9 {
+  width: 80px;
+  height: 80px;
+  top: 89%;
+  left: 71%;
+  animation-delay: 0s;
+}
+
+.star10 {
+  width: 80px;
+  height: 80px;
+  top: 29%;
+  left: 80%;
+  animation-delay: 1s;
+}
+
+.star11 {
+  width: 110px;
+  height: 110px;
+  top: 5%;
+  left: 80%;
+  animation-delay: 2s;
+}
+
