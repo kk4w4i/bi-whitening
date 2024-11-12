@@ -9,6 +9,9 @@ import CompareTable from './components/CompareTable'
 import { useState, useEffect } from 'react'
 import { ArrowRightIcon } from "lucide-react";
 import Footer from './components/footer'
+import Bi_chair from './assets/webp/chair.webp'
+import Bi_teeth1 from './assets/webp/teeth1.webp'
+import Bi_teeth2 from './assets/webp/teeth2.webp'
 
 interface PositionProps {
   position?: 'left' | 'center' | 'right';
@@ -165,6 +168,16 @@ function App() {
               </p>
             </a>
           </section>
+        </div>
+      </div>
+
+      <div className="flex w-full justify-center items-center relative z-10 px-5">
+        <div className="grid grid-cols-1 md:flex-row md:flex gap-4">
+          <img src={Bi_chair} className="w-full md:max-w-[30vw] aspect-ratio-1/1 object-cover rounded-2xl aspect-square mt-[7rem]" />
+          <div className="grid grid-cols-2 gap-2 md:mt-[7rem] justify-center items-center">
+            <img src={Bi_teeth1} className="w-full md:max-w-[20vw] h-auto object-cover rounded-2xl" />
+            <img src={Bi_teeth2} className="w-full md:max-w-[20vw] h-auto object-cover rounded-2xl" />
+          </div>
         </div>
       </div>
 
