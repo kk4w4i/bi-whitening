@@ -194,7 +194,7 @@ function App() {
       <div className='relative h-fit md:h-screen flex items-center justify-center lg:justify-center z-20 px-5 md:px-20 pb-20 mt-[10rem]'>
         <div className='flex flex-col h-full justify-center items-center overflow-visible'>
           <CompareTable />
-          <p className='w-full mt-5 pr-10 whitespace-normal'>＊費用などは歯医者やサロンによって変わります。<br />＊痛みのでるでないや、ホワイトニング効果には個人差があります。</p>
+          <p className='w-full mt-5 whitespace-normal'>＊費用などは歯医者やサロンによって変わります。<br />＊痛みのでるでないや、ホワイトニング効果には個人差があります。</p>
         </div>
       </div>
 
